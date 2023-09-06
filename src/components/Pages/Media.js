@@ -13,10 +13,10 @@ const Media = () => {
     return (
       <React.Fragment key={index}>
 				<div class="">
-					<a href={item.big} target="_blank" rel="noreferrer" class="lg:w-[450px] md:w-[300px] w-[250px] lg:h-[450px] md:h-[300px] h-[250px]">
+					<a href={item.big} target="_blank" rel="noreferrer" class="lg:w-[350px] md:w-[300px] w-[250px] lg:h-[350px] md:h-[300px] h-[250px]">
 						<Suspense>
 							<div className='flex justify-center'>
-								<img src={item.small} alt="Gallery" className="p-2 object-contain"/>
+								<img src={item.small} alt="Gallery" className="p-2 object-contain max-w-[450px] max-h-[450px] lg:w-[450px] md:w-[300px] w-[250px] lg:h-[450px] md:h-[300px] h-[250px]"/>
 							</div>
 						</Suspense>
 					</a>

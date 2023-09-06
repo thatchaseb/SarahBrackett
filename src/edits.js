@@ -6,9 +6,9 @@
 
 Each Photo must be added to the Gallery folder
 
-Each Photo must have a "small" version that is 300 pixels by 300 pixels
+Each Photo must have a "small" version that is 500 pixels by 500 pixels
   Use the site https://squoosh.app/ (click resize, uncheck "maintain aspect ratio",
-  Change Fit method to contain, then change height and width to 300)
+  Change Fit method to contain, then change height and width to 500)
 
   Then Copy and paste the two lines into the area below
   make sure to change the Names
