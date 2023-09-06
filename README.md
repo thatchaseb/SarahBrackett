@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Editing the Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to your editing portal!
+I aim to make this as easy as possible for you!
+There are basically just two locations for you to find!
 
-## Available Scripts
+## Main Edit document
 
-In the project directory, you can run:
+To edit almost everything you are going to use this file.
+You can find it's location by scrolling up then clicking the file folder
 
-### `npm start`
+### `src`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once you've done that click
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `edits.js`
 
-### `npm test`
+Almost there! At the top of the code you should see a button labled 'Raw'
+and to the right of it a pencil.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Click on the pencil!`
 
-### `npm run build`
+Do your editing following the instructions in gray!
+Once finished Click the green button that says:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Commit Changes`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You're done!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Adding/changing files
 
-### `npm run eject`
+To switch out resumes, add or switch photos, or change out polaroid header photos
+navigate to the following location
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `src`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `components`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `media`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+From here simply add a file that is named the exact same thing as the previous file (including the file extention like .jpg)
 
-## Learn More
+### Brief descriptions of photos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Cover.jpg
+Main Picture at the top of the page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+AboutPic.jpg, ContactPic.jpg, GalleryPic.jpg, MusicPic.jpg, VideoPic.jpg
+These are the Polaroid Header Pictures
 
-### Code Splitting
+Resume.jpg, Resume.pdf
+One shows up on the page (jpg) One is availible to download (pdf)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Tiktok.jpg
+Dont touch this :D it's just an icon
 
-### Analyzing the Bundle Size
+### Adding Gallery Photos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Just add a new photo in the `Gallery` folder.
+Add a second version of the photo with "small" at the end
+Make sure the gallery photo is only 300px x 300px resolution
 
-### Making a Progressive Web App
+`Use the site https://squoosh.app/ (click resize, uncheck "maintain aspect ratio",
+  Change Fit method to contain, then change height and width to 300)`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Then follow the instructions in the edits.js document!
 
-### Advanced Configuration
+To delete files click the `...` button then click delete button at the bottom!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+If you get stuck or lost don't hesitate to reach out with questions!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: BrackettWebsiteDesign@gmail.com

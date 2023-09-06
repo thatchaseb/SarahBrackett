@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player';
 import { Element } from 'react-scroll'
 import { Carousel } from 'react-responsive-carousel';
 
+import { VideoLinks } from '../../edits';
 
 
 const YoutubeSlide = ({ url, isSelected }: { url: string; isSelected?: boolean }) => (
@@ -13,7 +14,7 @@ const customRenderItem = (item, props) => <item.type {...item.props} {...props} 
 
 const getVideoThumb = (videoId) => `https://img.youtube.com/vi/${videoId}/default.jpg`;
 
-const getVideoId = (url) => url.substr('https://www.youtube.com/embed/'.length, url.length);
+const getVideoId = (url) => url.substr('https://youtu.be/'.length, url.length);
 
 const customRenderThumb = (children) =>
         children.map((item) => {
@@ -28,27 +29,27 @@ class Videos extends React.Component {
         this.state = {
             video1:  {
               "title": "Video Url 1",
-              "url": "https://www.youtube.com/embed/aQxBamN4B6s",
+              "url": `${VideoLinks[0]}`,
               "id": 1
             },
             video2: {
               "title": "Video Url 2",
-              "url": "https://www.youtube.com/embed/CYOoMuM8UfM",
+              "url": `${VideoLinks[1]}`,
               "id": 2
             },
             video3: {
               "title": "Video Url 3",
-              "url": "https://www.youtube.com/embed/rP7sCMKSb1I",
+              "url": `${VideoLinks[2]}`,
               "id": 3
             },
             video4: {
               "title": "Video Url 4",
-              "url": "https://www.youtube.com/embed/ZFyhtnPYxQo",
+              "url": `${VideoLinks[3]}`,
               "id": 4
             },
             video5: {
               "title": "Video Url 5",
-              "url": "https://www.youtube.com/embed/s0nfUCqLemU",
+              "url": `${VideoLinks[4]}`,
               "id": 5
             }
         };

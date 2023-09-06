@@ -1,10 +1,10 @@
 import React from 'react';
 import { Element } from 'react-scroll'
 
+import { SocialLinks } from '../../edits';
+
 import RM from "../media/Resume.pdf"
 import RMJPG from "../media/Resume.jpg"
-
-import resumePic from "../media/ResumePicture.jpg"
 
 const Resume = () => {
 	return (
@@ -39,7 +39,7 @@ const Resume = () => {
 				 	"
 				 >
 					<a  
-						href={"https://www.facebook.com/sarah.williams.144734"} 
+						href={SocialLinks.Facebook} 
 						style={{color:"#4267B2"}} 
 						target="_blank" 
 						rel="noreferrer"
@@ -47,7 +47,7 @@ const Resume = () => {
 						<i className="facebook icon" style={{color:"#4267B2"}}></i>
 					</a>                 
 					<a  
-						href={"https://www.instagram.com/sarahbrackett1993/"} 
+						href={SocialLinks.Instagram} 
 						style={{color:"#458eff"}} 
 						target="_blank" 
 						rel="noreferrer"
@@ -55,7 +55,7 @@ const Resume = () => {
 						<i className="instagram icon" style={{color:"#458eff"}}></i>
 					</a>                
 					<a  
-						href={"https://www.youtube.com/@jitterbugdancer"} 
+						href={SocialLinks.YouTube} 
 						style={{color:"#FF0000"}} 
 						target="_blank" 
 						rel="noreferrer"
