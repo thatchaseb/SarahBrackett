@@ -224,7 +224,6 @@ Instructions:
   Just go to Youtube, click the share button then paste it into the area below 
   Make sure to put quotes around the link and add a comma after it!
 
-  There must be 5 videos at all times!
 
 *///////////////////////////////
 export const VideoLinks = [/////
@@ -237,7 +236,6 @@ export const VideoLinks = [/////
   "https://youtu.be/rP7sCMKSb1I",
   "https://youtu.be/ZFyhtnPYxQo",
   "https://youtu.be/s0nfUCqLemU",
-
 
 
 ////////////////////////////////

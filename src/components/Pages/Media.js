@@ -46,7 +46,7 @@ const Media = () => {
 		</div>
 		<div className="">
 			
-			<Carousel  autoPlay="true" centerMode="true" dynamicHeight="true" transitionTime="500" interval="4000" stopOnHover="true" centerSlidePercentage="50" height="60px" infiniteLoop="true" >
+			<Carousel  autoPlay="true" showThumbs={false} centerMode="true" dynamicHeight="true" transitionTime="500" interval="4000" stopOnHover="true" centerSlidePercentage="50" height="60px" infiniteLoop="true" >
 				{renderedPhotos}
 			</Carousel>
 		</div>
