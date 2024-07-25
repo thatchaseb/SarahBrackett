@@ -1,23 +1,14 @@
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
 ///////////////////////////////////////////////////////////////////////
 //                        Gallery Photos                             //
 /*/////////////////////////////////////////////////////////////////////
 
 Each Photo must be added to the Gallery folder
 
-<<<<<<< Updated upstream
 Each Photo must have a "small" version that is 500 pixels by 500 pixels
   Use the site https://squoosh.app/ (click resize, uncheck "maintain aspect ratio",
   Change Fit method to contain, then change height and width to 500)
-=======
-Each Photo must have a "small" version that is 300 pixels by 300 pixels
-  Use the site https://squoosh.app/ (click resize, uncheck "maintain aspect ratio",
-  Change Fit method to contain, then change height and width to 300)
->>>>>>> Stashed changes
 
   Then Copy and paste the two lines into the area below
   make sure to change the Names
@@ -28,7 +19,6 @@ Each Photo must have a "small" version that is 300 pixels by 300 pixels
 import pic1small from "./components/media/Gallery/1small.jpg"
 import pic1 from "./components/media/Gallery/1.jpg"
 
-<<<<<<< Updated upstream
 *//////////////////////////////////////////////////////////////////////
 
 import pic1small from "./components/media/Gallery/1small.jpg"
@@ -49,45 +39,12 @@ import pic8small from "./components/media/Gallery/8small.jpg"
 import pic8 from "./components/media/Gallery/8.jpg"
 import pic9small from "./components/media/Gallery/9small.jpg"
 import pic9 from "./components/media/Gallery/9.jpg"
-=======
-*///////////////////////////////////////////////////////////////////////
-
-
-import pic1small from "./components/media/Gallery/1small.jpg"
-import pic1 from "./components/media/Gallery/1.jpg"
-
-import pic2small from "./components/media/Gallery/2small.jpg"
-import pic2 from "./components/media/Gallery/2.jpg"
-
-import pic3small from "./components/media/Gallery/3small.jpg"
-import pic3 from "./components/media/Gallery/3.jpg"
-
-import pic4small from "./components/media/Gallery/4small.jpg"
-import pic4 from "./components/media/Gallery/4.jpg"
-
-import pic5small from "./components/media/Gallery/5small.jpg"
-import pic5 from "./components/media/Gallery/5.jpg"
-
-import pic6small from "./components/media/Gallery/6small.jpg"
-import pic6 from "./components/media/Gallery/6.jpg"
-
-import pic7small from "./components/media/Gallery/7small.jpg"
-import pic7 from "./components/media/Gallery/7.jpg"
-
-import pic8small from "./components/media/Gallery/8small.jpg"
-import pic8 from "./components/media/Gallery/8.jpg"
-
-import pic9small from "./components/media/Gallery/9small.jpg"
-import pic9 from "./components/media/Gallery/9.jpg"
-
->>>>>>> Stashed changes
 import pic10small from "./components/media/Gallery/10small.jpg"
 import pic10 from "./components/media/Gallery/10.jpg"
 import pic11small from "./components/media/Gallery/11small.jpg"
 import pic11 from "./components/media/Gallery/11.jpg"
 import pic12small from "./components/media/Gallery/12small.jpg"
 import pic12 from "./components/media/Gallery/12.jpg"
-<<<<<<< Updated upstream
 import pic13 from "./components/media/Gallery/13.jpg"
 import pic13small from "./components/media/Gallery/13small.jpg"
 import pic14 from "./components/media/Gallery/14.jpg"
@@ -120,41 +77,6 @@ import pic27 from "./components/media/Gallery/27.jpg"
 import pic27small from "./components/media/Gallery/27small.jpg"
 import pic28 from "./components/media/Gallery/28.jpg"
 import pic28small from "./components/media/Gallery/28small.jpg"
-=======
-import pic13small from "./components/media/Gallery/13small.jpg"
-import pic13 from "./components/media/Gallery/13.jpg"
-import pic14small from "./components/media/Gallery/14small.jpg"
-import pic14 from "./components/media/Gallery/14.jpg"
-import pic15small from "./components/media/Gallery/15small.jpg"
-import pic15 from "./components/media/Gallery/15.jpg"
-import pic16small from "./components/media/Gallery/16small.jpg"
-import pic16 from "./components/media/Gallery/16.jpg"
-import pic17small from "./components/media/Gallery/17small.jpg"
-import pic17 from "./components/media/Gallery/17.jpg"
-import pic18small from "./components/media/Gallery/18small.jpg"
-import pic18 from "./components/media/Gallery/18.jpg"
-import pic19small from "./components/media/Gallery/19small.jpg"
-import pic19 from "./components/media/Gallery/19.jpg"
-import pic20small from "./components/media/Gallery/20small.jpg"
-import pic20 from "./components/media/Gallery/20.jpg"
-import pic21small from "./components/media/Gallery/21small.jpg"
-import pic21 from "./components/media/Gallery/21.jpg"
-import pic22small from "./components/media/Gallery/22small.jpg"
-import pic22 from "./components/media/Gallery/22.jpg"
-import pic23small from "./components/media/Gallery/23small.jpg"
-import pic23 from "./components/media/Gallery/23.jpg"
-import pic24small from "./components/media/Gallery/24small.jpg"
-import pic24 from "./components/media/Gallery/24.jpg"
-import pic25small from "./components/media/Gallery/25small.jpg"
-import pic25 from "./components/media/Gallery/25.jpg"
-import pic26small from "./components/media/Gallery/26small.jpg"
-import pic26 from "./components/media/Gallery/26.jpg"
-import pic27small from "./components/media/Gallery/27small.jpg"
-import pic27 from "./components/media/Gallery/27.jpg"
-import pic28small from "./components/media/Gallery/28small.jpg"
-import pic28 from "./components/media/Gallery/28.jpg"
-
->>>>>>> Stashed changes
 
 /////////////////////////////////////////
 export const galleryPhotos = [///////////
@@ -173,10 +95,6 @@ Copy and Paste these four lines into the area below
 */////////////////////////////
 //      Paste Below me!     //
 //////////////////////////////
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
   { 
     big: pic1,
     small: pic1small,
@@ -253,11 +171,7 @@ Copy and Paste these four lines into the area below
     big: pic19,
     small: pic19small,
   },
-<<<<<<< Updated upstream
   { 
-=======
-   { 
->>>>>>> Stashed changes
     big: pic20,
     small: pic20small,
   },
@@ -294,18 +208,10 @@ Copy and Paste these four lines into the area below
     small: pic28small,
   },
 
-<<<<<<< Updated upstream
   
 ]
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-=======
-
-
-//////////////////////////////
-]//      Paste Above me!    //
-//////////////////////////////
->>>>>>> Stashed changes
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -314,18 +220,10 @@ Copy and Paste these four lines into the area below
 //                        Video Links                                //
 /*/////////////////////////////////////////////////////////////////////
 
-<<<<<<< Updated upstream
 Instructions:
   Just go to Youtube, click the share button then paste it into the area below 
   Make sure to put quotes around the link and add a comma after it!
 
-=======
- Just go to Youtube, click the share button then 
- paste the link into one of the five quotation marks below
- 
- If you want to change the amount of videos rendered it's a whole process
- just call Chase and have him help you
->>>>>>> Stashed changes
 
 *///////////////////////////////
 export const VideoLinks = [/////
@@ -351,42 +249,23 @@ export const VideoLinks = [/////
 ///////////////////////////////////////////////////////////////////////
 //                        Social Media Links                         //
 /*/////////////////////////////////////////////////////////////////////
-<<<<<<< Updated upstream
 
 Instructions:
   Just Edit the links in the quotations below!
-=======
-  
-Just Edit the links in the quotations below!
->>>>>>> Stashed changes
 
 *//////////////////////////////////////////////////////////////////////
 export const SocialLinks = {///////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////
-<<<<<<< Updated upstream
   
    YouTube: "https://www.youtube.com/@jitterbugdancer",
    Instagram: "https://www.instagram.com/sarahbrackett1993/", 
    Facebook: "https://www.facebook.com/sarah.williams.144734",
   
   
-=======
-
-  YouTube: "https://www.youtube.com/@jonahtyharmon/featured",
-  Instagram: "https://www.instagram.com/jonahtyharmon/", 
-  TikTok: "https://www.tiktok.com/@jonahtyharmon?is_from_webapp=1&sender_device=pc", 
-  Twitter: "https://twitter.com/jonahtyharmon",
-
-
->>>>>>> Stashed changes
 }//////////////////////////////////////////////////////////////////////
 
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 ///////////////////////////////////////////////////////////////////////
 //                        Bio                                        //
 /*/////////////////////////////////////////////////////////////////////
@@ -394,7 +273,6 @@ export const SocialLinks = {///////////////////////////////////////////
 Just Edit the Bio text below!
 Do not include your name it will be added automatically
 
-<<<<<<< Updated upstream
 *////////////////////////////////////////////
 export const Bio = //////////////////////////
 /////////////////////////////////////////////
@@ -403,15 +281,4 @@ export const Bio = //////////////////////////
 is currently an acting intern at Florida Repertory Theatre. She is an Atlanta native but has spent the last few years living in New York City with her husband, fellow actor, Chase. She graduated from Reinhardt University with a BFA in musical theatre in 2017. Since that time she has had the opportunity to work on some wonderful productions, including: The Importance of Being Earnest, And Then There Were None, Trouble (At the Vista View Mobile Home Estates), Incident at our Lady of Perpetual Help, Ella Enchanted the Musical, Macbeth, and Elephant and Piggie: We’re in a Play! (Florida Repertory Theatre); Beauty and the Beast, Life Could be a Dream, Junie B. Jones the Musical, and James and the Giant Peach (Round Barn Theatre); A Christmas Carol National Tour (The Nebraska Theatre Caravan); The Sirens (The Pennsylvania Renaissance Faire); and She Kills Monsters and Triassic Parq (Out of Box Theatre). Shout out to Matthew Corozine Studios and Tyler Knauf Studios for their incredible guidance and support. She wants to thank her family for their continued love and support.
 
 `
-=======
-*/////////////////////////////////////////////
- export const Bio = //////////////////////////
- /////////////////////////////////////////////
-`
- 
-is currently an acting intern at Florida Repertory Theatre. She is an Atlanta native but has spent the last few years living in New York City with her husband, fellow actor, Chase. She graduated from Reinhardt University with a BFA in musical theatre in 2017. Since that time she has had the opportunity to work on some wonderful productions, including: The Importance of Being Earnest, And Then There Were None, Incident at our Lady of Perpetual Help, Ella Enchanted the Musical, Macbeth, and Elephant and Piggie: We’re in a Play! (Florida Repertory Theatre); Beauty and the Beast, Life Could be a Dream, Junie B. Jones the Musical, James and the Giant Peach (Round Barn Theatre); A Christmas Carol National Tour (The Nebraska Theatre Caravan); The Sirens (The Pennsylvania Renaissance Faire); and She Kills Monsters, Triassic Parq (Out of Box Theatre). Shout out to Matthew Corozine Studios and Tyler Knauf Studios for their incredible guidance and support. She wants to thank her family for their continued love and support.
-
-`
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
->>>>>>> Stashed changes
 
