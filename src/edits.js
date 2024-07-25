@@ -274,11 +274,12 @@ Just Edit the Bio text below!
 Do not include your name it will be added automatically
 
 *////////////////////////////////////////////
-export const Bio = //////////////////////////
+export let Bio = //////////////////////////
 /////////////////////////////////////////////
-`
-
-is currently an acting intern at Florida Repertory Theatre. She is an Atlanta native but has spent the last few years living in New York City with her husband, fellow actor, Chase. She graduated from Reinhardt University with a BFA in musical theatre in 2017. Since that time she has had the opportunity to work on some wonderful productions, including: The Importance of Being Earnest, And Then There Were None, Trouble (At the Vista View Mobile Home Estates), Incident at our Lady of Perpetual Help, Ella Enchanted the Musical, Macbeth, and Elephant and Piggie: We’re in a Play! (Florida Repertory Theatre); Beauty and the Beast, Life Could be a Dream, Junie B. Jones the Musical, and James and the Giant Peach (Round Barn Theatre); A Christmas Carol National Tour (The Nebraska Theatre Caravan); The Sirens (The Pennsylvania Renaissance Faire); and She Kills Monsters and Triassic Parq (Out of Box Theatre). Shout out to Matthew Corozine Studios and Tyler Knauf Studios for their incredible guidance and support. She wants to thank her family for their continued love and support.
 
 `
 
+is currently living in Savannah, Georgia with her husband, Chase, where they are both working towards opening a professional non-equity theatre, New Oak Theatre. She is an Atlanta native but has spent some time living in New York City. She graduated from Reinhardt University with a BFA in musical theatre in 2017. Since that time she has had the opportunity to work on some wonderful productions, including: The Importance of Being Earnest, And Then There Were None, Trouble (At the Vista View Mobile Home Estates), Incident at our Lady of Perpetual Help, Ella Enchanted the Musical, Macbeth, and Elephant and Piggie: We’re in a Play! (Florida Repertory Theatre); Beauty and the Beast, Life Could be a Dream, Junie B. Jones the Musical, and James and the Giant Peach (Round Barn Theatre); A Christmas Carol National Tour (The Nebraska Theatre Caravan); The Sirens (The Pennsylvania Renaissance Faire); and She Kills Monsters and Triassic Parq (Out of Box Theatre). Shout out to Matthew Corozine Studios and Tyler Knauf Studios for their incredible guidance and expertise. She wants to thank her family for their continued love and support.
+
+
+`
