@@ -6,7 +6,7 @@
 
 Each Photo must be added to the Gallery folder
 
-Each Photo must have a "small" version that is 500 pixels by 500 pixels
+Each Photo must have a "small" version that is 1440 pixels by 1440 pixels
   Use the site https://squoosh.app/ (click resize, uncheck "maintain aspect ratio",
   Change Fit method to contain, then change height and width to 500)
 
@@ -77,6 +77,18 @@ import pic27 from "./components/media/Gallery/27.jpg"
 import pic27small from "./components/media/Gallery/27small.jpg"
 import pic28 from "./components/media/Gallery/28.jpg"
 import pic28small from "./components/media/Gallery/28small.jpg"
+import pic29 from "./components/media/Gallery/29.jpg"
+import pic29small from "./components/media/Gallery/29small.jpg"
+import pic30 from "./components/media/Gallery/30.jpg"
+import pic30small from "./components/media/Gallery/30small.jpg"
+import pic31 from "./components/media/Gallery/31.jpg"
+import pic31small from "./components/media/Gallery/31small.jpg"
+import pic32 from "./components/media/Gallery/32.jpg"
+import pic32small from "./components/media/Gallery/32small.jpg"
+import pic33 from "./components/media/Gallery/33.jpg"
+import pic33small from "./components/media/Gallery/33small.jpg"
+import pic34 from "./components/media/Gallery/34.jpg"
+import pic34small from "./components/media/Gallery/34small.jpg"
 
 /////////////////////////////////////////
 export const galleryPhotos = [///////////
@@ -206,6 +218,30 @@ Copy and Paste these four lines into the area below
   { 
     big: pic28,
     small: pic28small,
+  },
+  { 
+    big: pic29,
+    small: pic29small,
+  },
+  { 
+    big: pic30,
+    small: pic30small,
+  },
+  { 
+    big: pic31,
+    small: pic31small,
+  },
+  { 
+    big: pic32,
+    small: pic32small,
+  },
+  { 
+    big: pic33,
+    small: pic33small,
+  },
+  { 
+    big: pic34,
+    small: pic34small,
   },
 
   
