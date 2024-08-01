@@ -103,10 +103,34 @@ Copy and Paste these four lines into the area below
     big: pic1,
     small: pic1small,
   },
-
-*/////////////////////////////
-//      Paste Below me!     //
-//////////////////////////////
+  
+  */////////////////////////////
+  //      Paste Below me!     //
+  //////////////////////////////
+  { 
+    big: pic29,
+    small: pic29small,
+  },
+  { 
+    big: pic30,
+    small: pic30small,
+  },
+  { 
+    big: pic31,
+    small: pic31small,
+  },
+  { 
+    big: pic32,
+    small: pic32small,
+  },
+  { 
+    big: pic33,
+    small: pic33small,
+  },
+  { 
+    big: pic34,
+    small: pic34small,
+  },
   { 
     big: pic1,
     small: pic1small,
@@ -218,30 +242,6 @@ Copy and Paste these four lines into the area below
   { 
     big: pic28,
     small: pic28small,
-  },
-  { 
-    big: pic29,
-    small: pic29small,
-  },
-  { 
-    big: pic30,
-    small: pic30small,
-  },
-  { 
-    big: pic31,
-    small: pic31small,
-  },
-  { 
-    big: pic32,
-    small: pic32small,
-  },
-  { 
-    big: pic33,
-    small: pic33small,
-  },
-  { 
-    big: pic34,
-    small: pic34small,
   },
 
   
