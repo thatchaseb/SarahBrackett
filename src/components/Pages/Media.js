@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { galleryPhotos } from '../../edits';
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 const Media = () => {
 
@@ -64,7 +65,6 @@ const Media = () => {
             spaceBetween: 50,
           },
         }}
-				speed={1000}
 				onSlideChange={() => console.log('slide change')}
 				onSwiper={(swiper) => console.log(swiper)}
 			>
