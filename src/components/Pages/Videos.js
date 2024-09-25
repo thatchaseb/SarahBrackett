@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 const YoutubeSlide = ({ url, isSelected }) => (
-    <ReactPlayer width="100%" url={url}  />
+    <ReactPlayer url={url}  />
 );
 const customRenderItem = (item, props) => <item.type {...item.props} {...props} />;
 
@@ -24,7 +24,7 @@ const customRenderThumb = () =>
 const renderedVideos = VideoLinks.map((item, index) => {
 
   return (
-  <YoutubeSlide key={index} url={item} />
+  <YoutubeSlide class="aspect-video h-full mx-auto" key={index} url={item} />
   );
 });
 
@@ -35,7 +35,7 @@ class Videos extends React.Component {
         
 
         return (
-            <Element name="Reels" className="mt-12 mx-20 md:mx-32 lg:mx-48 xl:mx-64">
+            <Element name="Reels" className="mt-12 max-w-7xl w-full mx-auto p-12">
                 <div 
                     className="
                         font-Merriweather 
